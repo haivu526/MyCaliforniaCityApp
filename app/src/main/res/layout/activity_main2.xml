@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haivu.mycaliforniacityapp.Main2Activity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/buttonsfId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="San Francisco"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonelkId"
+        app:layout_constraintRight_toRightOf="@+id/buttonelkId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonelkId" />
+
+    <Button
+        android:id="@+id/buttonsjId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="San Jose"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsfId"
+        app:layout_constraintRight_toRightOf="@+id/buttonsfId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonsfId" />
+
+    <Button
+        android:id="@+id/buttonelkId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="Elk Grove"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonroseviId"
+        app:layout_constraintRight_toRightOf="@+id/buttonroseviId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonroseviId" />
+
+    <Button
+        android:id="@+id/buttonroseviId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="Roseville"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonoakId"
+        app:layout_constraintRight_toRightOf="@+id/buttonoakId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonoakId" />
+
+    <Button
+        android:id="@+id/buttonoakId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="Oakland"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsdId"
+        app:layout_constraintRight_toRightOf="@+id/buttonsdId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonsdId" />
+
+    <Button
+        android:id="@+id/buttonlaId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="Los Angles"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsantaId"
+        app:layout_constraintRight_toRightOf="@+id/buttonsantaId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonsantaId" />
+
+    <Button
+        android:id="@+id/buttonsdId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="San Diego"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlaId"
+        app:layout_constraintRight_toRightOf="@+id/buttonlaId"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonlaId" />
+
+    <Button
+        android:id="@+id/buttonsacraId"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:text="Sacramento"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsjId"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsantaId"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="Santa Clara"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonstockId"
+        app:layout_constraintRight_toRightOf="@+id/buttonstockId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonstockId" />
+
+    <Button
+        android:id="@+id/buttonstockId"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:text="@string/buttonstock"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

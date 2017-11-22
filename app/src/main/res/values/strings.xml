@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My California City App</string>
+    <string name="texview">Welcome To California</string>
+    <string name="button">Enter Here</string>
+    <string name="buttonsacra">Sacramento</string>
+    <string name="buttonsacrame">Sacramento</string>
+    <string name="buttonsf">San Francisco</string>
+    <string name="buttonsj">San Jose</string>
+    <string name="buttonelk">Elk Grove</string>
+    <string name="buttonrosev">Roseville</string>
+    <string name="buttonoak">Oakland</string>
+    <string name="buttonla">Los Angles</string>
+    <string name="buttonsd">San Diego</string>
+    <string name="buttonsanta">Santa Clara</string>
+    <string name="buttonstock">Stockton</string>
+    <string name="textview">San Jose, California</string>
+    <string name="buttonsacto2">Enter Here</string>
+</resources>
